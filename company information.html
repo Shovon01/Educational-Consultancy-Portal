@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <!-- animate.css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shared.css">
+
+</head>
+<body>
+   <!-- Navigation Bar -->
+   <header class="header-area">
+    <div class="main-menu">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-color" id="enjoy">
+    <a class="navbar-brand" href="index.html">Logo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="#Services">Services</a>
+        </li> -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Services
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="./Apply to study abroad at your dream school.html">Students</a>
+            <a class="dropdown-item" href="./increase your presence.html">Schools</a>
+            <a class="dropdown-item" href="./how we work with recruitment partners.html">Recruiters</a>
+          </div>
+        </li> 
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="#About">About</a>
+        </li>      -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="./our story.html">Our Story</a>
+            <a class="dropdown-item" href="./Help Your students study abroad.html">Careers</a>
+            <a class="dropdown-item" href="./press contact.html">Press</a>
+            <a class="dropdown-item" href="./Help Us Educate The World.html">Life</a>
+            <a class="dropdown-item" href="./Applyboard Team.html">Leadership</a>
+            <a class="dropdown-item" href="./company information.html">Contact</a>
+          </div>
+        </li>     
+        <li class="nav-item">
+          <a class="nav-link" href="./applyboard Blog.html">Blog</a>
+        </li>
+        <li class="nav-item log">
+          <a class="nav-link nav-log" href="./login.html">Login</a>
+        </li>
+    </div>
+  </nav>
+  </div>
+</header>
+  <!-- Navigaiton Bar End -->
+
+    <!-- Company Information Part start -->
+    <section id="company_informations">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="company-image">
+                        <img src="./img/CompanyInformation/information_carousel.png" alt="image" class="w-100">
+                    </div>
+                </div>
+                <div class="col-lg-6 ml-auto">
+                    <div class="company_deatils">
+                        <ul class="nav nav-pills mb-4" id="pills-tab" role="tablist">
+                            <li class="nav-item">
+                              <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Company Information</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Contact Information</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Recruitment Details</a>
+                            </li>
+                          </ul>
+                          <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlText1">Company Name*</label>
+                                        <input type="text" class="form-control" id="exampleFormControlText1" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlInput1">Email*</label> 
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlText2">Website</label>
+                                        <input type="text" class="form-control" id="exampleFormControlText2" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlText3">Facebook Page Name</label>
+                                        <input type="text" class="form-control" id="exampleFormControlText3" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlText4">Instagram Handle</label>
+                                        <input type="text" class="form-control" id="exampleFormControlText4" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlText5">Twitter Handle</label>
+                                        <input type="text" class="form-control" id="exampleFormControlText5" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlText6">Linkedin URL</label>
+                                        <input type="text" class="form-control" id="exampleFormControlText6" placeholder="">
+                                    </div>
+                                    <div class="company-btn text-right">
+                                        <button type="submit" class="btn btn-primary">Next</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlText7">Main Source of Students*</label>
+                                        <input type="text" class="form-control" id="exampleFormControlText7" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlInput2">Legal First Name*</label> 
+                                        <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlText8">Legal Last Name*</label>
+                                        <input type="text" class="form-control" id="exampleFormControlText8" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlText9">Street Address*</label>
+                                        <input type="text" class="form-control" id="exampleFormControlText9" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlText10">City*</label>
+                                        <input type="text" class="form-control" id="exampleFormControlText10" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlText11">State/Province</label>
+                                        <input type="text" class="form-control" id="exampleFormControlText11" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlText12">Country*</label>
+                                        <input type="text" class="form-control" id="exampleFormControlText12" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlText13">Postal Code</label>
+                                        <input type="text" class="form-control" id="exampleFormControlText13" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlText14">Phone*</label>
+                                        <input type="text" class="form-control" id="exampleFormControlText14" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlText15">PhonHas anyone from ApplyBoard helped or referred you?</label>
+                                        <input type="text" class="form-control" id="exampleFormControlText15" placeholder="">
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="company-btn">
+                                                <button type="submit" class="btn btn-primary">Back</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="company-btn text-right">
+                                                <button type="submit" class="btn btn-primary">Next</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlText17">When did you begin recruiting students?</label>
+                                        <input type="text" class="form-control" id="exampleFormControlText17" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1">What services do you provide to your clients?*</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                      </div>
+                                    <div class="form-group">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                                            <label class="form-check-label" for="invalidCheck2">
+                                                Canadian Schools Represented 
+                                            </label>
+                                          </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                                            <label class="form-check-label" for="invalidCheck2">
+                                                American Schools Represented 
+                                            </label>
+                                          </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                                            <label class="form-check-label" for="invalidCheck2">
+                                                Represents Other Countries
+                                            </label>
+                                          </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea2">What institutions are you representing?</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea2" rows="3"></textarea>
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="exampleFormControlTextarea3">What educational associations or groups does your organization 
+                                            belong to?*</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea3" rows="3"></textarea>
+                                      </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlText19">Where do you recruit from?*</label>
+                                        <input type="text" class="form-control" id="exampleFormControlText19" placeholder="">
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="company-btn">
+                                                <button type="submit" class="btn btn-primary">Back</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="company-btn text-right">
+                                                <button type="submit" class="btn btn-primary">Next</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Company Information Part End -->
+
+  <!-- FOOTER -->
+  <footer class="page-footer">
+    <div class="container text-center text-md-left mt-5">
+      <div class="row">
+        <div class="col-lg-2 col-md-2 col-sm-4">
+          <h6 class="title">Products</h6>
+         <ul class="footer-ul">
+         <li><a href="./Apply to study abroad at your dream school.html">Students</a></li>
+         <li><a href="./increase your presence.html">Schools</a></li>
+         <li><a href="./how we work with recruitment partners.html">Recruiters</a></li>
+        </ul>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4">
+          <h6 class="title" >About</h6>
+          <ul class="footer-ul">
+            <li><a href="./our story.html">Our Story</a></li>
+            <li><a href="./Help Your students study abroad.html">Careers</a></li>
+            <li><a href="./applyboard Blog.html">Blog</a></li>
+            <li><a href="./press contact.html">Press</a></li>
+            <li><a href="./Help Us Educate The World.html">Life</a></li>
+            <li><a href="./Applyboard Team.html">Leadership</a></li>
+            <li><a href="./company information.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4">
+          <h6 class="title">Resources</h6>
+          <ul class="footer-ul">
+            <li><a href="./Where we Will be upcoming events.html">Events & Webinars</a></li>
+            <li><a href="#">TRW Virtual</a></li>
+            <li><a href="#">UK Resources</a></li>
+          </ul>
+          <h6 class="title">Products</h6>
+          <ul class="footer-ul">
+            <li><a href="#">Discover Programs</a></li>
+            <li><a href="#">Discover Schools</a></li>
+            <li><a href="./signup.html">Register</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4">
+         <h6 class="title">Legal</h6>
+         <ul class="footer-ul">
+           <li><a href="#">Privacy Policy</a></li>
+           <li><a href="./Terms and Conditions.html">Terms & Conditions</a></li>
+           <li><a href="./ApplyBoard website terms of use.html">Terms of Use</a></li>
+           <li><a href="./Cookie Policy.html">Cookie Policy</a></li>
+           <li><a href="./applyboard fees.html">ApplyBoard Fees</a></li>
+         </ul>
+        </div>
+        <div class="col-lg-4 col-md-3 col-sm-2">
+          <h6 class="title1">Get Social</h6>
+          <img src="img/image7.png" alt="image7" class="wow animate__animated animate__pulse" data-wow-duration="2s" data-wow-delay=".5s">
+        </div>
+      </div>
+    </div>
+    <div class="footer-copy">
+      <p>&copy; 2015-2020 ApplyBoard Inc.</p>
+    </div>
+  </footer>
+  
+  
+                      <!-- End of Footer -->
+  
+                      <script src="js/smooth-scroll.js"></script>
+                      <script>
+                        var scroll = new SmoothScroll('a[href*="#"]');
+                      </script>        
+  
+      <!-- <script src="js/jquery-v3.5.1.min.js"></script> -->
+      <script src="js/jquery-1.12.4.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="https://kit.fontawesome.com/b58c0179db.js" crossorigin="anonymous"></script>
+  
+      <script src="js/wow.min.js"></script>
+    
+    <script src="js/index.js">
+    </script>
+    
+    <!-- Smoth Scrolling plugin by git -->   
+  
+                 <!--  End of Smoth Scrolling plugin by git -->
+  </body>
+  </html>
